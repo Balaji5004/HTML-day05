@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <form>
+        <label for="fname"><b>Name</b><span class="required">*</span></label><br>
+        <input type="text" id="fname" name="fname">
+        <input type="text" id="lname" name="lname"><br>
+        <p><small><sup> First </sup></small>   <small><sup>Last</sup></small></p>  <br><br>
+
+        <label for="email"><b>Email</b><span class="required">*</span></label><br>
+        <input type="email" id="email" name="email" size="47">  <br><br>
+
+        <label for="text"><b>Your Experience</b><span class="required">*</span></label><br>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span><br>
+        <h6>Overall,How would you rate you experience with us?</h6> <br><br>
+
+        <label for="text"><b>How satisfied are you with<span class="required">*</span> </b></label> <br>
+        <table id="customers">
+            <tr>
+                <th></th>
+                <th><small>veryunsatisfied</small></th>
+                <th><small>unsatisfied</small></th>
+                <th><small>Neutral</small></th>
+                <th><small>satisfied</small></th>
+                <th><small>verysatisfied</small></th>
+            </tr>
+            <tr>
+                <td>Purchase</td>
+                <td><input type="radio" id="vusd" name="vusd"></td>
+                <td><input type="radio" id="usd" name="usd"></td>
+                <td><input type="radio" id="nut" name="nut"></td>
+                <td><input type="radio" id="sd" name="sd"></td>
+                <td><input type="radio" id="vsd" name="vsd"></td>
+            </tr>
+            <tr>
+                <td>Service</td>
+                <td><input type="radio" id="vusd" name="vusd"></td>
+                <td><input type="radio" id="usd" name="usd"></td>
+                <td><input type="radio" id="nut" name="nut"></td>
+                <td><input type="radio" id="sd" name="sd"></td>
+                <td><input type="radio" id="vsd" name="vsd"></td>
+            </tr>
+            <tr>
+                <td>Company overall</td>
+                <td><input type="radio" id="vusd" name="vusd"></td>
+                <td><input type="radio" id="usd" name="usd"></td>
+                <td><input type="radio" id="nut" name="nut"></td>
+                <td><input type="radio" id="sd" name="sd"></td>
+                <td><input type="radio" id="vsd" name="vsd"></td>
+            </tr> 
+        </table><br><br>
+
+
+        <label for="text"><b>How Likely are you to<span class="required">*</span></b></label>
+       <table id="customers">
+        <tr>
+            <th></th>
+            <th><small>veryunlikely</small></th>
+            <th><small>unlikely</small></th>
+            <th><small>Neutral</small></th>
+            <th><small>likely</small></th>
+            <th><small>verylikely</small></th>
+        </tr>
+        <tr>
+            <td>Buy from us again</td>
+            <td><input type="radio" id="vusd" name="vusd"></td>
+            <td><input type="radio" id="usd" name="usd"></td>
+            <td><input type="radio" id="nut" name="nut"></td>
+            <td><input type="radio" id="sd" name="sd"></td>
+            <td><input type="radio" id="vsd" name="vsd"></td>
+        </tr>
+        <tr>
+            <td>Recommend our product to others</td>
+            <td><input type="radio" id="vusd" name="vusd"></td>
+            <td><input type="radio" id="usd" name="usd"></td>
+            <td><input type="radio" id="nut" name="nut"></td>
+            <td><input type="radio" id="sd" name="sd"></td>
+            <td><input type="radio" id="vsd" name="vsd"></td>
+        </tr>
+        <tr>
+            <td>Recommend our company to others</td>
+            <td><input type="radio" id="vusd" name="vusd"></td>
+            <td><input type="radio" id="usd" name="usd"></td>
+            <td><input type="radio" id="nut" name="nut"></td>
+            <td><input type="radio" id="sd" name="sd"></td>
+            <td><input type="radio" id="vsd" name="vsd"></td>
+        </tr> 
+    </table>
+
+       </table> <br> <br>
+
+    <label for="text"><b>Additional comments or suggestions</b></label><br>
+    <textarea id="tarea" name="tarea" rows="4" cols="50"></textarea><br>
+   <input type="submit" value="submit">
+        
+
+    </form>
+    
+</body>
+</html>
